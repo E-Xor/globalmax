@@ -11,7 +11,7 @@ email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   &copy; Maksim Sundukov 2016 | All Rights Reserved. Like somebody wants to copy that site. In fact, I don’t even need the notice to claim copyright; the law eliminated the requirement of public notice in 1989.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://e-xor.github.io" # the base hostname & protocol for your site
 github_username:  E-Xor
 
 # Build settings
