@@ -4,10 +4,9 @@ title: Solutions / Services / Products
 permalink: /solutions/
 ---
 
-Consulting Services.
+Consulting Services. Software architecture. Ruby on Rails, Angular JS, Amazon AWS.
 
-Software engineering, architecture contract services.
+Software engineering contract services.
 
 AI Products.
 
-Music label.

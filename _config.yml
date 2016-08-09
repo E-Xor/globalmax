@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Welcome, welcome!
+title: Septagon
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   &copy; Maksim Sundukov 2016 | All Rights Reserved. Like somebody wants to copy that site. In fact, I don’t even need the notice to claim copyright; the law eliminated the requirement of public notice in 1989.
