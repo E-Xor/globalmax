@@ -1,12 +1,38 @@
 ---
 layout: page
-title: Solutions / Services / Products
+title: Services / Technologies
 permalink: /solutions/
 ---
 
-Consulting Services. Software architecture. Ruby on Rails, Angular JS, Amazon AWS.
+### Services we provide ###
 
-Software engineering contract services.
+* Software architecture
+* Infrastructure architecture
+* Software development
+* DevOps
 
-AI Products.
+### Technologies we work with ###
+
+* Ruby
+  * Ruby on Rails
+  * Sinatra
+* JavaScript
+  * jQuery
+  * AngularJS
+* PHP
+  * Laravel
+* Linux
+  * Apache
+  * MySQL
+  * PostgreSQL
+* Amazon AWS
+  * RDS
+  * S3
+  * CloudFront
+  * EC2
+  * VPS
+  * Route 53
+
+
+
 
