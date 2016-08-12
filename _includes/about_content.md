@@ -2,8 +2,8 @@ If you're looking for beautiful well-architectured software you're in the right 
 
 We believe people and processes are important.
 
-* Engineers we select are not just qualified or have loud words in their titles, they're are morivated to learn, perform and take extra steps to deliver better results.
+<img src="/img/engineers.png" alt="Engineers" class="about-icon"><br>Engineers we select are not just qualified or have loud words in their titles, they're are motivated to learn, perform and take extra steps to deliver better results.<br><br>
 
-* We do code peer-review and architecture meetings to ensure everyone follows quality standards.
+<img src="/img/architecture.png" alt="Architecture" class="about-icon"><br>We do code peer-review and architecture meetings to ensure everyone follows quality standards.<br><br><br>
 
-* We do daily status updates so we're aware of everyone's progress and can help each other in time.
+<img src="/img/status_update.png" alt="Status Update" class="about-icon"><br>We do daily status updates so we're aware of everyone's progress and can help each other in time.<br><br><br>
