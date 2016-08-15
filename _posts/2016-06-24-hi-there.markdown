@@ -1,8 +1,0 @@
----
-layout: post
-title:  "Hi there!"
-date:   2016-06-24 09:11:37 -0400
-categories: blog first post
----
-
-My first post
