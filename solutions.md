@@ -2,6 +2,7 @@
 layout: page
 title: Services / Technologies
 permalink: /solutions/
+excerpt: Ruby on Rails, Ruby, AngularJS, JavaScript, Linux, Amazon AWS, Apache, MySQL.
 ---
 
 ### Services we provide ###
