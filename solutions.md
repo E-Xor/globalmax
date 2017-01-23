@@ -20,6 +20,7 @@ excerpt: Ruby on Rails, Ruby, AngularJS, JavaScript, Linux, Amazon AWS, Apache, 
 * JavaScript
   * jQuery
   * AngularJS
+  * VueJS
 * PHP
   * Laravel
 * Linux
