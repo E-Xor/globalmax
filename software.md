@@ -1,25 +1,25 @@
 ---
 layout: page
-title: Services / Technologies
-permalink: /solutions/
-excerpt: Ruby on Rails, Ruby, AngularJS, JavaScript, Linux, Amazon AWS, Apache, MySQL.
+title: Software / Hi Tech
+permalink: /software/
+excerpt: Ruby on Rails, Ruby, VueJS, JavaScript, Linux, Amazon AWS, Apache, MySQL.
 ---
 
-### Services we provide ###
+### I can help you with ###
 
 * Software architecture
 * Infrastructure architecture
 * Software development
-* DevOps
+* Business processes for IT/Software Engineering
+* AI, Machine Learning, data collection and analysis
 
-### Technologies we work with ###
+### Technologies I work with ###
 
 * Ruby
   * Ruby on Rails
   * Sinatra
 * JavaScript
   * jQuery
-  * AngularJS
   * VueJS
 * PHP
   * Laravel
@@ -34,7 +34,3 @@ excerpt: Ruby on Rails, Ruby, AngularJS, JavaScript, Linux, Amazon AWS, Apache, 
   * EC2
   * VPS
   * Route 53
-
-
-
-

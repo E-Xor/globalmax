@@ -1,11 +1,6 @@
-If you're looking for beautiful well-architectured software you're in the right place. We offer full-stack software development with DevOps/infrastructure. That means you get everything from design, architecture and server setup all the way to working software, all in one place.
+What's up! I do lots of random stuff in my life.
 
-We believe people and processes are important.
-
-<img src="/img/engineers.png" alt="Engineers" class="about-icon"><br>Engineers we select are not just qualified or have loud words in their titles, they're are motivated to learn, perform and take extra steps to deliver better results.<br><br>
-
-<img src="/img/architecture.png" alt="Architecture" class="about-icon">We do code peer-review and architecture meetings to ensure everyone follows quality standards. Good architecture helps to bring order, efficiency, and scalability to systems and infrastructure.<br><br>
-
-<img src="/img/status_update.png" alt="Status Update" class="about-icon">We do daily team updates so we're aware of everyone's progress, can share knowledge, improve processes and can help each other in time.<br><br><br>
-
-You can <a href="mailto:maksim@septagon.biz" target="_new">ask us any questions</a> as well as get into details of <a class="page-link" href="/how_it_works">how we work with our clients</a>.
+* <a href="http://rubyhail.org" target="_blank">RubyHail, super fast web-nano-framework, rubyhail.org</a>
+* <a href="https://www.linkedin.com/in/maksimsundukov/" target="_blank">Software Engineering</a>
+* <a href="https://www.instagram.com/e_xor/" target="_blank">Instagram</a> and <a href="https://www.youtube.com/channel/UCcSt_XTfGwCUpqE7t5sXG4g" target="_blank">Youtube</a> featuring <a href="https://www.youtube.com/watch?v=XQ1LOPkcJvg" target="_blank">speedcubing</a>, <a href="https://www.youtube.com/watch?v=KvJyHYqhqU4" target="_blank">longboarding</a>, <a href="https://www.youtube.com/watch?v=IYPebfpomDk" target="_blank">guitar</a>, <a href="https://www.youtube.com/watch?v=WUjSPraKKww&list=PLibJuFeVTa3IwS-8qQoq0rz8FRnKZksL9" target="_blank">slowmos</a>, <a href="https://www.youtube.com/watch?v=_VhSUKfKd04&list=PLibJuFeVTa3K503RMmkJpo2Nq17pPJ40U" target="_blank">UrbEx</a>, <a href="https://www.youtube.com/watch?v=SoyTVKEQ_jM&list=PLibJuFeVTa3JQXjU7I_x2zOPaAEMqcWR5" target="_blank">timelapses</a> 
+* <a href="https://photos.google.com/share/AF1QipPSy91BtdvqEEHYdYVP64AxS2KBroJYiCqqDSTrtG4orR5XHaGXsMkZKgrC67oOXg?key=cmJmV1FOUjVzM1F0bUZPMlAzQVQ4R2FUb2xCRV9R" target="_blank">High-quality photos</a> and <a href="https://photos.google.com/share/AF1QipMQ46x-8YIxIkPxJ4H9xosbd5qGwf1yOiGfh6SudxHaJr-I5ntdYt925rPZo6I0dw?key=a0RGTmxJZUt0UXR6OThXUDl3Z0haakwtQ2xxZmFB" target="_blank">photos post-processing</a>
