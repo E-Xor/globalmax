@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<div class="home">
+{% include top-about.html %}
+{% include instagram.html %}
+{% include youtube.html %}
+{% include software.html %}
+{% include more.html %}
 
-  {% capture about-content %}{% include about_content.md %}{% endcapture %}
-  {{ about-content | markdownify }}
-
-</div>
