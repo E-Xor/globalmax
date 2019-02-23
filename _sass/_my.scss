@@ -1,32 +1,106 @@
-.social-icon {
-  height: 16px;
-  margin-right: 5px;
+body {
+  font: "Open Sans", sans-serif;
+}
+
+.card-top-border {
+  border-top: 1px solid #ffe1c5;
 }
 
 .logo-image {
-  height: 55px;
-  width: 55px;
+  height: 8rem;
+  width: 8rem;
   border-radius: 50%;
+  border: 2px solid #eee
 }
 
-.about-icon {
-  width: 75px;
-  float:left;
-  padding-right: 20px;
+.card-pic {
+  height: 22rem;
 }
 
-.site-header-background {
-  background-image: url(/img/bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.title-text-decoration {
+  color: #fff;
+  text-shadow: 2px 2px 2px #000;
 }
 
-.site-header-background .wrapper a{
-  color: white;
-  text-shadow: 2px 2px 2px black;
+.my-gutter > [class*='col-'] {
+  padding-top:    2rem;
+  padding-bottom: 2rem;
+  padding-right:  3rem;
+  padding-left:   3rem;
 }
 
-.text-center{
-  text-align: center;
+.text-card {
+  background-color: #f7f2ee;
+
+  h2 {
+    padding-bottom: 1rem;
+  }
+}
+
+.navbar-custom {
+  .nav-link,
+  .nav-item.active .nav-link,
+  .nav-item:focus .nav-link,
+  .nav-item:hover .nav-link {
+      color: #fff;
+      font-size: 1rem;
+      padding-bottom: 5px;
+      position: relative;
+  }
+
+  a::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #ffca98;
+    transform-origin: right;
+    transform: scale(0, 1);
+    transition: transform 0.5s ease-out;
+    box-shadow: 2px 2px 2px #000;
+  }
+
+  a:hover::before, a:focus::before {
+    transform-origin: left;
+    transform: scale(1, 1);
+  }
+}
+
+.jumbotron-custom {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+  background-color: #303336 !important;
+}
+
+.my-footer {
+  height: 5rem;
+  background-color: #303336;
+  color: #aaa;
+}
+
+.footer-image {
+  height: 2rem;
+  padding-right: 2rem;
+}
+
+@keyframes orangebar {
+  0% { box-shadow: 0 0 0; background-color: #303336; }
+  25% { box-shadow: 0 0 5px #ffcea0, 0 0 10px #ffcea0, 0 0 20px #fff, 0 0 30px #fff; background-color: #ffca98; }
+  50% { box-shadow: 0 0 5px #ffcea0, 0 0 10px #ffcea0, 0 0 20px #fff, 0 0 30px #fff; background-color: #ffca98; }
+  100% { box-shadow: 0 0 0; background-color: #303336; }
+}
+
+.top-highlight {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #303336;
+  animation-name: orangebar;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-timing-function: linear;
 }

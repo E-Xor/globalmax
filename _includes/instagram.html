@@ -1,0 +1,14 @@
+{% include scroll-parts-header.html %}
+
+<div class="col-md-6 picture-card text-center">
+  <img class="card-pic" src="/img/screenshots/instagram.png">
+</div>
+
+<div class="col-md-6 text-card">
+
+  {% capture page-content %}{% include instagram_content.md %}{% endcapture %}
+  {{ page-content | markdownify }}
+
+</div>
+
+{% include scroll-parts-footer.html %}
