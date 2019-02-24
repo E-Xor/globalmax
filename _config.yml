@@ -7,7 +7,7 @@
 
 # Site settings
 title: Maksim Sundukov
-description: Videos. YouTube. Instagram. SlowMo. Timelapses. Extreme Sports. Architecture, City. UrbEx. Astrophotography. Beautiful well-architectured software. Full-stack software development. Great business processes.
+description: Videos. YouTube. Instagram. SlowMo. Timelapses. Extreme Sports. Architecture. City. UrbEx. Astrophotography. Beautiful well-architectured software. Full-stack software development. Great business processes.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://globalmax.net" # the base hostname & protocol for your site
 
