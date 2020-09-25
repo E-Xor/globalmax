@@ -1,7 +1,10 @@
 # Install and run
 
+* Install rvm and ruby
 ```
-gem install jekyll
+gem install bundler -v "2.1.4"
+bundle install
+
 jekyll serve
 ```
 
