@@ -4,27 +4,25 @@ require 'yaml'
 
 AWS_KEYS = YAML::load(File.open("aws.yml")).transform_keys(&:to_sym)
 
-# puts AWS_KEYS.inspect
+BUCKET = 'globalmax.net'
+# BUCKET = 'globalmaxnettest'
 
-# BUCKET = 'globalmax.net'
-BUCKET = 'globalmaxnettest'
+# require 'aws-sdk-s3'
 
-require 'aws-sdk-s3'
+# puts 'AWS SDK S3 List'
 
-puts 'AWS SDK S3 List'
+# s3 = Aws::S3::Resource.new({
+#   region: 'us-east-1',
+#   access_key_id: AWS_KEYS[:key],
+#   secret_access_key: AWS_KEYS[:secret]
+# })
 
-s3 = Aws::S3::Resource.new({
-  region: 'us-east-1',
-  access_key_id: AWS_KEYS[:key],
-  secret_access_key: AWS_KEYS[:secret]
-})
-
-puts s3.bucket(BUCKET).objects(prefix:'', delimiter: '').collect(&:key)
-puts
+# puts s3.bucket(BUCKET).objects(prefix:'', delimiter: '').collect(&:key)
+# puts
 
 require 'fog-aws'
 
-puts 'Fog AWS List'
+puts 'List'
 
 connection = Fog::Storage.new({
   provider:             'AWS',
@@ -33,10 +31,14 @@ connection = Fog::Storage.new({
 })
 
 directory = connection.directories.get(BUCKET)
-puts directory.files.map(&:key)
-puts
+# puts directory.files.map(&:key)
+directory.files.each do |f|
+  puts "Removing #{f.key}"
+  f.destroy
+end
 
-puts 'Upload'
+puts
+puts 'Uploading'
 
 files       = Dir.glob(File.join('_site/**/*')).select { |f| !File.directory?(f) }
 total_files = files.size
@@ -59,7 +61,7 @@ threads     = []
         total_size += File.size(file)
 
         directory.files.create(
-          :key    => file,
+          :key    => file[6..-1], # removes _site/ in the front
           :body   => File.open(file),
           :public => true
         )
@@ -87,4 +89,4 @@ puts("Uploaded %d files (%.#{0}f KB) in %d min %d sec" % [total_files, total_siz
 #     :body   => File.open(f),
 #     :public => true
 #   )
-# end; nil
+# end
