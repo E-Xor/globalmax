@@ -4,7 +4,7 @@ require 'yaml'
 
 AWS_KEYS = YAML::load(File.open("aws.yml")).transform_keys(&:to_sym)
 
-BUCKET = 'globalmax.net'
+BUCKET = 'globalmaxnet'
 # BUCKET = 'globalmaxnettest'
 
 # require 'aws-sdk-s3'
@@ -74,11 +74,6 @@ start = Time.now
 
 threads.each { |t| t.join }
 
-finish  = Time.now
-elapsed = finish.to_f - start.to_f
-mins, secs = elapsed.divmod 60.0
-puts("Uploaded %d files (%.#{0}f KB) in %d min %d sec" % [total_files, total_size / 1024.0, mins, secs])
-
 # No threads
 
 # Dir.glob(File.join('_site/**/*')).select { |f| !File.directory?(f) }.each do |f|
@@ -90,3 +85,11 @@ puts("Uploaded %d files (%.#{0}f KB) in %d min %d sec" % [total_files, total_siz
 #     :public => true
 #   )
 # end
+
+finish  = Time.now
+elapsed = finish.to_f - start.to_f
+mins, secs = elapsed.divmod 60.0
+puts("Uploaded %d files (%.#{0}f KB) in %d min %d sec" % [total_files, total_size / 1024.0, mins, secs])
+
+puts "Now go and invalidate the CloudFront distribution to propagate the update."
+
