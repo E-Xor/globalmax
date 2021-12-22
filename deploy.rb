@@ -92,4 +92,3 @@ mins, secs = elapsed.divmod 60.0
 puts("Uploaded %d files (%.#{0}f KB) in %d min %d sec" % [total_files, total_size / 1024.0, mins, secs])
 
 puts "Now go and invalidate the CloudFront distribution to propagate the update."
-
