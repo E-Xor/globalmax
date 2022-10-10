@@ -4,4 +4,4 @@
 * <a href="https://www.youtube.com/watch?v=bXWHQMnFHhA" target="_blank">Rubick's Cube</a> and other twisty and puzzles
 * Skateboard, <a href="https://www.youtube.com/playlist?list=PLibJuFeVTa3LXzsOTFGea73vpo3FuOOnE" target="_blank">longboard</a>, <a href="https://www.youtube.com/watch?v=LzgNch6t1l0" target="_blank">all kind of boards</a>
 * Cardistry & Magic
-
+* <a href="https://www.youtube.com/playlist?list=PLibJuFeVTa3JhBWFaZdsAE2NCWPaOf6Xd" target="_blank">Shuffling</a>
