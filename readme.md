@@ -21,5 +21,5 @@ Open in browser http://127.0.0.1:4000/
 
 ## deploy.rb
 
-Put credentials in aws.yml
-`deploy.rb`
+* Put credentials in aws.yml
+* Run `./deploy.rb`

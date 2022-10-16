@@ -5,3 +5,4 @@
 * Skateboard, <a href="https://www.youtube.com/playlist?list=PLibJuFeVTa3LXzsOTFGea73vpo3FuOOnE" target="_blank">longboard</a>, <a href="https://www.youtube.com/watch?v=LzgNch6t1l0" target="_blank">all kind of boards</a>
 * Cardistry & Magic
 * <a href="https://www.youtube.com/playlist?list=PLibJuFeVTa3JhBWFaZdsAE2NCWPaOf6Xd" target="_blank">Shuffling</a>
+* <a href="https://max-sundukov.medium.com/" target="_blank">Blog, not very technical</a>

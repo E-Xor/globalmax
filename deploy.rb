@@ -5,20 +5,6 @@ require 'yaml'
 AWS_KEYS = YAML::load(File.open("aws.yml")).transform_keys(&:to_sym)
 
 BUCKET = 'globalmaxnet'
-# BUCKET = 'globalmaxnettest'
-
-# require 'aws-sdk-s3'
-
-# puts 'AWS SDK S3 List'
-
-# s3 = Aws::S3::Resource.new({
-#   region: 'us-east-1',
-#   access_key_id: AWS_KEYS[:key],
-#   secret_access_key: AWS_KEYS[:secret]
-# })
-
-# puts s3.bucket(BUCKET).objects(prefix:'', delimiter: '').collect(&:key)
-# puts
 
 require 'fog-aws'
 
@@ -31,7 +17,6 @@ connection = Fog::Storage.new({
 })
 
 directory = connection.directories.get(BUCKET)
-# puts directory.files.map(&:key)
 directory.files.each do |f|
   puts "Removing #{f.key}"
   f.destroy
@@ -74,17 +59,15 @@ start = Time.now
 
 threads.each { |t| t.join }
 
-# No threads
-
-# Dir.glob(File.join('_site/**/*')).select { |f| !File.directory?(f) }.each do |f|
-#   puts f
-
-#   directory.files.create(
-#     :key    => f,
-#     :body   => File.open(f),
-#     :public => true
-#   )
-# end
+# No threads version
+  # Dir.glob(File.join('_site/**/*')).select { |f| !File.directory?(f) }.each do |f|
+  #   puts f
+  #   directory.files.create(
+  #     :key    => f,
+  #     :body   => File.open(f),
+  #     :public => true
+  #   )
+  # end
 
 finish  = Time.now
 elapsed = finish.to_f - start.to_f
