@@ -1,8 +1,0 @@
----
-layout: post
-title:  "Goals vs No Goals"
-date:   2016-07-12 09:11:37 -0400
-categories: [robotics, horses, automation]
----
-
-<a href="https://www.linkedin.com/pulse/goals-vs-maksim-sundukov" target="_blank">Goals How do you achieve great results? Set your goals, define deadlines, push hard and work a lot. It's hard to imagine what you can do if you don't ...</a>
