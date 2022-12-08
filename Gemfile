@@ -6,4 +6,4 @@ gem 'yaml', '~> 0.2.0'
 gem 'jekyll', '~> 4.2.2'
 gem 'aws-sdk-s3', '~> 1.114.0'
 gem 'fog-aws', '~> 3.15.0'
-gem 'nokogiri', '~> 1.13.8' # vulnerability patches
+gem 'nokogiri', '~> 1.13.10' # vulnerability patches
