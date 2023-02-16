@@ -23,3 +23,7 @@ Open in browser http://127.0.0.1:4000/
 
 * Put credentials in aws.yml
 * Run `./deploy.rb`
+
+## CDN
+
+Invalidate the CloudFront distribution to propagate the update. Object paths: `/*`.
